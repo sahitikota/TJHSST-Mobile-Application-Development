@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/royal_blue">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large_length"
+        android:layout_height="@dimen/large_length"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@color/dodger_blue"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/med_length"
+        android:layout_height="@dimen/med_length"
+        android:background="@color/navy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large_length"
+        android:layout_height="@dimen/large_length"
+        android:background="@color/pale_turquoise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large_length"
+        android:layout_height="@dimen/large_length"
+        android:background="@color/med_spring_green" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/small_length"
+        android:layout_height="@dimen/small_length"
+        android:background="@color/navy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+</androidx.constraintlayout.widget.ConstraintLayout>
